@@ -20,10 +20,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<ProductModel> newProductList = [
     ProductModel(AssetPath.productJacketJean, "청자켓", 27000, 50, 4.3, false),
-    ProductModel(AssetPath.productBag, "가방", 27000, 50, 4.3, false),
-    ProductModel(AssetPath.productManJacket, "자켓", 27000, 50, 4.3, false),
-    ProductModel(AssetPath.productManStreet, "스트리트", 27000, 50, 4.3, false),
-    ProductModel(AssetPath.productManSuit, "수트", 27000, 50, 4.3, false),
+    ProductModel(AssetPath.productBag, "가방", 18000, 10, 4.5, false),
+    ProductModel(AssetPath.productManJacket, "자켓", 17000, 13, 3.8, false),
+    ProductModel(AssetPath.productManStreet, "스트리트", 80000, 5, 3.1, false),
+    ProductModel(AssetPath.productManSuit, "수트", 90000, 40, 5.0, false),
   ];
 
   int currentIndex = 0;
